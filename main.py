@@ -10,4 +10,5 @@ if __name__ == "__main__":
 y = int(input("Введите число y: "))
 funk640DILMUROD(y)
 
-# ТАШКЕНТ СОМСА
+x = int(input("Enter your x"))
+funk640DILMUROD(x)
