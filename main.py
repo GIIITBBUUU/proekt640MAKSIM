@@ -1,14 +1,11 @@
 from proekt640 import funk320FIO
-from FuncAkhmedov import funk640DILMUROD
+from proekt640QOBILOV import funcQOBILOV
+
 
 if __name__ == "__main__":
-    a = 5
-    b = 10
-    result = funk320FIO(a, b)
-    print(f"Результат работы функции: {result}")
+    choice = input("1 - сложение, 2 - функция: ")
 
-y = int(input("Введите число y: "))
-funk640DILMUROD(y)
-
-x = int(input("Enter your x"))
-funk640DILMUROD(x)
+    if choice == "1":
+        print(funk320FIO(int(input("a: ")), int(input("b: "))))
+    elif choice == "2":
+        funcQOBILOV(int(input("число: ")))
